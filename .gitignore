@@ -1,0 +1,15 @@
+# NOTE: /logs/ and /apache_logs/ at the project root are 100% synthetic
+# (see sample_data/generate_synthetic_logs.py) and are meant to be committed
+# and public. The real company logs that used to live here have been
+# deleted from this project entirely -- there is nothing sensitive left to
+# gitignore for log data.
+
+# OS / editor cruft
+.DS_Store
+__pycache__/
+*.pyc
+
+# Ad-hoc generated files from manual testing during development -- not the
+# same as the documented reference outputs kept on purpose in sample_data/
+# (sample_incident_report*.txt, sample_incident_report_reduced_summary.json).
+agent_system/hard_test_incident_reduced_summary.json

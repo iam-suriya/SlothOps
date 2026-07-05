@@ -1,0 +1,362 @@
+2026-07-04T09:00:00.234Z	START RequestId: e14ae531-acfd-d67d-25ab-a1a8374eb35c Version: $LATEST
+2026-07-04T09:00:00.841Z	e14ae531-acfd-d67d-25ab-a1a8374eb35c	INFO	Invoking SlothStay listings handler for affiliate=NAP traceId=Root=1-b321b890-1398bb674dc2643c16554071
+2026-07-04T09:00:00.824Z	e14ae531-acfd-d67d-25ab-a1a8374eb35c	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/NAP?start=0&count=25 succeeded (200)
+2026-07-04T09:00:00.410Z	END RequestId: e14ae531-acfd-d67d-25ab-a1a8374eb35c
+2026-07-04T09:00:00.274Z	REPORT RequestId: e14ae531-acfd-d67d-25ab-a1a8374eb35c	Duration: 93.00 ms	Billed Duration: 208 ms	Memory Size: 512 MB	Max Memory Used: 170 MB
+2026-07-04T09:00:30.540Z	START RequestId: e482ed4a-92c8-c805-0eed-40ef171cc278 Version: $LATEST
+2026-07-04T09:00:30.893Z	e482ed4a-92c8-c805-0eed-40ef171cc278	INFO	Invoking SlothStay listings handler for affiliate=DOZE traceId=Root=1-43849e63-f8101ac616f8fd0ba84a167f
+2026-07-04T09:00:30.433Z	e482ed4a-92c8-c805-0eed-40ef171cc278	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/DOZE?start=0&count=25 succeeded (200)
+2026-07-04T09:00:30.951Z	END RequestId: e482ed4a-92c8-c805-0eed-40ef171cc278
+2026-07-04T09:00:30.552Z	REPORT RequestId: e482ed4a-92c8-c805-0eed-40ef171cc278	Duration: 446.00 ms	Billed Duration: 473 ms	Memory Size: 512 MB	Max Memory Used: 141 MB
+2026-07-04T09:01:00.735Z	START RequestId: bc138227-d1cd-1a80-1c36-7de206ec4bbc Version: $LATEST
+2026-07-04T09:01:00.498Z	bc138227-d1cd-1a80-1c36-7de206ec4bbc	INFO	Invoking SlothStay listings handler for affiliate=COZY traceId=Root=1-e7310890-b01058478be93761a56d0aa0
+2026-07-04T09:01:00.194Z	bc138227-d1cd-1a80-1c36-7de206ec4bbc	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/COZY?start=0&count=25 succeeded (200)
+2026-07-04T09:01:00.222Z	END RequestId: bc138227-d1cd-1a80-1c36-7de206ec4bbc
+2026-07-04T09:01:00.991Z	REPORT RequestId: bc138227-d1cd-1a80-1c36-7de206ec4bbc	Duration: 89.00 ms	Billed Duration: 396 ms	Memory Size: 512 MB	Max Memory Used: 105 MB
+2026-07-04T09:01:08.003Z	START RequestId: 82513478-4fc8-a8e1-e4eb-2435ad84e0ad Version: $LATEST
+2026-07-04T09:01:08.341Z	82513478-4fc8-a8e1-e4eb-2435ad84e0ad	INFO	Invoking SlothStay listings handler for affiliate=SLOTH traceId=Root=1-7e808d11-d6f9901a954a542a7ee09918
+2026-07-04T09:01:08.652Z	82513478-4fc8-a8e1-e4eb-2435ad84e0ad	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/SLOTH?start=0&count=25 succeeded (200)
+2026-07-04T09:01:08.165Z	END RequestId: 82513478-4fc8-a8e1-e4eb-2435ad84e0ad
+2026-07-04T09:01:08.759Z	REPORT RequestId: 82513478-4fc8-a8e1-e4eb-2435ad84e0ad	Duration: 286.00 ms	Billed Duration: 382 ms	Memory Size: 512 MB	Max Memory Used: 199 MB
+2026-07-04T09:01:20.394Z	START RequestId: 2b6073e5-dd3a-641c-58ad-50e49f095c6f Version: $LATEST
+2026-07-04T09:01:20.921Z	2b6073e5-dd3a-641c-58ad-50e49f095c6f	INFO	Invoking SlothStay listings handler for affiliate=NAP traceId=Root=1-b2058605-ef05aa58dfbe32c262ec6ab3
+2026-07-04T09:01:20.194Z	2b6073e5-dd3a-641c-58ad-50e49f095c6f	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/NAP?start=0&count=25 succeeded (200)
+2026-07-04T09:01:20.045Z	END RequestId: 2b6073e5-dd3a-641c-58ad-50e49f095c6f
+2026-07-04T09:01:20.725Z	REPORT RequestId: 2b6073e5-dd3a-641c-58ad-50e49f095c6f	Duration: 283.00 ms	Billed Duration: 100 ms	Memory Size: 512 MB	Max Memory Used: 140 MB
+2026-07-04T09:01:29.324Z	START RequestId: dca33037-d16a-3b73-a0cc-162f803d7caf Version: $LATEST
+2026-07-04T09:01:29.972Z	dca33037-d16a-3b73-a0cc-162f803d7caf	INFO	Invoking SlothStay listings handler for affiliate=COZY traceId=Root=1-5db44664-26fae9480469a7737ec218a5
+2026-07-04T09:01:29.627Z	dca33037-d16a-3b73-a0cc-162f803d7caf	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/COZY?start=0&count=25 succeeded (200)
+2026-07-04T09:01:29.913Z	END RequestId: dca33037-d16a-3b73-a0cc-162f803d7caf
+2026-07-04T09:01:29.516Z	REPORT RequestId: dca33037-d16a-3b73-a0cc-162f803d7caf	Duration: 278.00 ms	Billed Duration: 380 ms	Memory Size: 512 MB	Max Memory Used: 204 MB
+2026-07-04T09:02:04.019Z	START RequestId: d8bce747-6acb-def8-e9a1-6d24575e4f6d Version: $LATEST
+2026-07-04T09:02:04.767Z	d8bce747-6acb-def8-e9a1-6d24575e4f6d	INFO	Invoking SlothStay listings handler for affiliate=DOZE traceId=Root=1-cd4c737b-35e126236570d6cf0e97f46e
+2026-07-04T09:02:04.053Z	d8bce747-6acb-def8-e9a1-6d24575e4f6d	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/DOZE?start=0&count=25 succeeded (200)
+2026-07-04T09:02:04.229Z	END RequestId: d8bce747-6acb-def8-e9a1-6d24575e4f6d
+2026-07-04T09:02:04.665Z	REPORT RequestId: d8bce747-6acb-def8-e9a1-6d24575e4f6d	Duration: 95.00 ms	Billed Duration: 499 ms	Memory Size: 512 MB	Max Memory Used: 100 MB
+2026-07-04T09:02:24.363Z	START RequestId: 6585dd1f-adb6-bf4c-876b-4dd1e37960d2 Version: $LATEST
+2026-07-04T09:02:24.816Z	6585dd1f-adb6-bf4c-876b-4dd1e37960d2	INFO	Invoking SlothStay listings handler for affiliate=YAWN traceId=Root=1-022a93bc-29b1df104af6b1ba1cd91fc5
+2026-07-04T09:02:24.348Z	6585dd1f-adb6-bf4c-876b-4dd1e37960d2	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/YAWN?start=0&count=25 succeeded (200)
+2026-07-04T09:02:24.901Z	END RequestId: 6585dd1f-adb6-bf4c-876b-4dd1e37960d2
+2026-07-04T09:02:24.610Z	REPORT RequestId: 6585dd1f-adb6-bf4c-876b-4dd1e37960d2	Duration: 419.00 ms	Billed Duration: 241 ms	Memory Size: 512 MB	Max Memory Used: 92 MB
+2026-07-04T09:02:34.809Z	START RequestId: d454b200-4fac-1047-5f4d-1179a2cf1386 Version: $LATEST
+2026-07-04T09:02:34.633Z	d454b200-4fac-1047-5f4d-1179a2cf1386	INFO	Invoking SlothStay listings handler for affiliate=YAWN traceId=Root=1-6837b704-63a585f85743b5bfb3b49c9f
+2026-07-04T09:02:34.794Z	d454b200-4fac-1047-5f4d-1179a2cf1386	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/YAWN?start=0&count=25 succeeded (200)
+2026-07-04T09:02:34.389Z	END RequestId: d454b200-4fac-1047-5f4d-1179a2cf1386
+2026-07-04T09:02:34.461Z	REPORT RequestId: d454b200-4fac-1047-5f4d-1179a2cf1386	Duration: 286.00 ms	Billed Duration: 252 ms	Memory Size: 512 MB	Max Memory Used: 199 MB
+2026-07-04T09:03:18.686Z	START RequestId: e7746487-9eb9-03ad-90cd-9c2874f6df76 Version: $LATEST
+2026-07-04T09:03:18.107Z	e7746487-9eb9-03ad-90cd-9c2874f6df76	INFO	Invoking SlothStay listings handler for affiliate=SLOTH traceId=Root=1-f1ca4138-26b7044d134c9c3132420c9d
+2026-07-04T09:03:18.337Z	e7746487-9eb9-03ad-90cd-9c2874f6df76	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/SLOTH?start=0&count=25 succeeded (200)
+2026-07-04T09:03:18.710Z	END RequestId: e7746487-9eb9-03ad-90cd-9c2874f6df76
+2026-07-04T09:03:18.507Z	REPORT RequestId: e7746487-9eb9-03ad-90cd-9c2874f6df76	Duration: 207.00 ms	Billed Duration: 439 ms	Memory Size: 512 MB	Max Memory Used: 192 MB
+2026-07-04T09:03:25.244Z	START RequestId: 7b84df38-6e8e-d4c6-e8d4-49f728588753 Version: $LATEST
+2026-07-04T09:03:25.585Z	7b84df38-6e8e-d4c6-e8d4-49f728588753	INFO	Invoking SlothStay listings handler for affiliate=DOZE traceId=Root=1-55f68fa8-635cac38e7b1f932881fe71d
+2026-07-04T09:03:25.239Z	7b84df38-6e8e-d4c6-e8d4-49f728588753	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/DOZE?start=0&count=25 succeeded (200)
+2026-07-04T09:03:25.420Z	END RequestId: 7b84df38-6e8e-d4c6-e8d4-49f728588753
+2026-07-04T09:03:25.044Z	REPORT RequestId: 7b84df38-6e8e-d4c6-e8d4-49f728588753	Duration: 222.00 ms	Billed Duration: 481 ms	Memory Size: 512 MB	Max Memory Used: 211 MB
+2026-07-04T09:03:54.654Z	START RequestId: fcb12405-0563-6a22-96a7-93a7ae7481ff Version: $LATEST
+2026-07-04T09:03:54.985Z	fcb12405-0563-6a22-96a7-93a7ae7481ff	INFO	Invoking SlothStay listings handler for affiliate=ZZZ traceId=Root=1-f2f51d1e-02df1c49615a8fae7893a431
+2026-07-04T09:03:54.706Z	fcb12405-0563-6a22-96a7-93a7ae7481ff	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/ZZZ?start=0&count=25 succeeded (200)
+2026-07-04T09:03:54.467Z	END RequestId: fcb12405-0563-6a22-96a7-93a7ae7481ff
+2026-07-04T09:03:54.865Z	REPORT RequestId: fcb12405-0563-6a22-96a7-93a7ae7481ff	Duration: 214.00 ms	Billed Duration: 201 ms	Memory Size: 512 MB	Max Memory Used: 188 MB
+2026-07-04T09:04:05.653Z	START RequestId: 4b228f8e-d4d7-cb51-f2fd-bffc5c087aa9 Version: $LATEST
+2026-07-04T09:04:05.962Z	4b228f8e-d4d7-cb51-f2fd-bffc5c087aa9	INFO	Invoking SlothStay listings handler for affiliate=YAWN traceId=Root=1-99f4fa49-ab097e4c95a9abadaea479b1
+2026-07-04T09:04:05.110Z	4b228f8e-d4d7-cb51-f2fd-bffc5c087aa9	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/YAWN?start=0&count=25 succeeded (200)
+2026-07-04T09:04:05.239Z	END RequestId: 4b228f8e-d4d7-cb51-f2fd-bffc5c087aa9
+2026-07-04T09:04:05.482Z	REPORT RequestId: 4b228f8e-d4d7-cb51-f2fd-bffc5c087aa9	Duration: 72.00 ms	Billed Duration: 417 ms	Memory Size: 512 MB	Max Memory Used: 173 MB
+2026-07-04T09:04:24.602Z	START RequestId: 5631d7aa-90c3-291c-33d5-2e0d2242a00c Version: $LATEST
+2026-07-04T09:04:24.331Z	5631d7aa-90c3-291c-33d5-2e0d2242a00c	INFO	Invoking SlothStay listings handler for affiliate=NAP traceId=Root=1-de462f47-1e27abf6b26176f057fd1a8f
+2026-07-04T09:04:24.178Z	5631d7aa-90c3-291c-33d5-2e0d2242a00c	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/NAP?start=0&count=25 succeeded (200)
+2026-07-04T09:04:24.053Z	END RequestId: 5631d7aa-90c3-291c-33d5-2e0d2242a00c
+2026-07-04T09:04:24.129Z	REPORT RequestId: 5631d7aa-90c3-291c-33d5-2e0d2242a00c	Duration: 439.00 ms	Billed Duration: 315 ms	Memory Size: 512 MB	Max Memory Used: 119 MB
+2026-07-04T09:04:59.360Z	START RequestId: e8d6e6d6-b554-fa71-16b5-20f8a6df6e04 Version: $LATEST
+2026-07-04T09:04:59.106Z	e8d6e6d6-b554-fa71-16b5-20f8a6df6e04	INFO	Invoking SlothStay listings handler for affiliate=DOZE traceId=Root=1-59739bea-4a0fd61b7e52299b69486c1a
+2026-07-04T09:04:59.519Z	e8d6e6d6-b554-fa71-16b5-20f8a6df6e04	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/DOZE?start=0&count=25 succeeded (200)
+2026-07-04T09:04:59.158Z	END RequestId: e8d6e6d6-b554-fa71-16b5-20f8a6df6e04
+2026-07-04T09:04:59.672Z	REPORT RequestId: e8d6e6d6-b554-fa71-16b5-20f8a6df6e04	Duration: 306.00 ms	Billed Duration: 214 ms	Memory Size: 512 MB	Max Memory Used: 117 MB
+2026-07-04T09:05:27.362Z	START RequestId: 2c017696-3851-a984-3f03-fcc41762838a Version: $LATEST
+2026-07-04T09:05:27.073Z	2c017696-3851-a984-3f03-fcc41762838a	INFO	Invoking SlothStay listings handler for affiliate=NAP traceId=Root=1-4368c9a8-9ab04ce522a1bf1867245f9e
+2026-07-04T09:05:28.406Z	2c017696-3851-a984-3f03-fcc41762838a	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/NAP?start=0&count=25 in progress...
+2026-07-04T09:05:30.882Z	2c017696-3851-a984-3f03-fcc41762838a	ERROR	NapLambdaTimeoutError: backend did not respond within 3000ms
+2026-07-04T09:05:30.759Z	END RequestId: 2c017696-3851-a984-3f03-fcc41762838a
+2026-07-04T09:05:30.043Z	2c017696-3851-a984-3f03-fcc41762838a	Task timed out after 3.00 seconds
+2026-07-04T09:05:30.446Z	REPORT RequestId: 2c017696-3851-a984-3f03-fcc41762838a	Duration: 3000.87 ms	Billed Duration: 3001 ms	Memory Size: 512 MB	Max Memory Used: 214 MB
+2026-07-04T09:05:37.473Z	START RequestId: 422c1fa7-99ae-af5f-577a-c9517054af19 Version: $LATEST
+2026-07-04T09:05:37.594Z	422c1fa7-99ae-af5f-577a-c9517054af19	INFO	Invoking SlothStay listings handler for affiliate=DOZE traceId=Root=1-1566a46f-2f7b561661db3c1a83c5fa21
+2026-07-04T09:05:37.977Z	422c1fa7-99ae-af5f-577a-c9517054af19	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/DOZE?start=0&count=25 succeeded (200)
+2026-07-04T09:05:37.756Z	END RequestId: 422c1fa7-99ae-af5f-577a-c9517054af19
+2026-07-04T09:05:37.917Z	REPORT RequestId: 422c1fa7-99ae-af5f-577a-c9517054af19	Duration: 81.00 ms	Billed Duration: 330 ms	Memory Size: 512 MB	Max Memory Used: 138 MB
+2026-07-04T09:06:12.134Z	START RequestId: aa2b18a5-2bff-e1a8-04f5-c3f24c88b8ae Version: $LATEST
+2026-07-04T09:06:12.611Z	aa2b18a5-2bff-e1a8-04f5-c3f24c88b8ae	INFO	Invoking SlothStay listings handler for affiliate=PJS traceId=Root=1-f7cdf1a0-bf895e6ca0a55864df921ae4
+2026-07-04T09:06:12.157Z	aa2b18a5-2bff-e1a8-04f5-c3f24c88b8ae	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/PJS?start=0&count=25 succeeded (200)
+2026-07-04T09:06:12.185Z	END RequestId: aa2b18a5-2bff-e1a8-04f5-c3f24c88b8ae
+2026-07-04T09:06:12.851Z	REPORT RequestId: aa2b18a5-2bff-e1a8-04f5-c3f24c88b8ae	Duration: 414.00 ms	Billed Duration: 494 ms	Memory Size: 512 MB	Max Memory Used: 132 MB
+2026-07-04T09:06:19.794Z	START RequestId: e26f3750-083f-50ed-ac24-db2b7014d8b8 Version: $LATEST
+2026-07-04T09:06:19.295Z	e26f3750-083f-50ed-ac24-db2b7014d8b8	INFO	Invoking SlothStay listings handler for affiliate=SNUG traceId=Root=1-a374b784-c7d5ff7468fdc24ad81dd4c4
+2026-07-04T09:06:19.308Z	e26f3750-083f-50ed-ac24-db2b7014d8b8	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/SNUG?start=0&count=25 succeeded (200)
+2026-07-04T09:06:19.048Z	END RequestId: e26f3750-083f-50ed-ac24-db2b7014d8b8
+2026-07-04T09:06:19.244Z	REPORT RequestId: e26f3750-083f-50ed-ac24-db2b7014d8b8	Duration: 274.00 ms	Billed Duration: 427 ms	Memory Size: 512 MB	Max Memory Used: 207 MB
+2026-07-04T09:06:55.946Z	START RequestId: daf722bf-03ce-546d-70a4-d0a4c667f52b Version: $LATEST
+2026-07-04T09:06:55.816Z	daf722bf-03ce-546d-70a4-d0a4c667f52b	INFO	Invoking SlothStay listings handler for affiliate=PJS traceId=Root=1-a9b40592-a85f8c80d065b513a19c255a
+2026-07-04T09:06:55.273Z	daf722bf-03ce-546d-70a4-d0a4c667f52b	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/PJS?start=0&count=25 succeeded (200)
+2026-07-04T09:06:55.744Z	END RequestId: daf722bf-03ce-546d-70a4-d0a4c667f52b
+2026-07-04T09:06:55.434Z	REPORT RequestId: daf722bf-03ce-546d-70a4-d0a4c667f52b	Duration: 100.00 ms	Billed Duration: 320 ms	Memory Size: 512 MB	Max Memory Used: 136 MB
+2026-07-04T09:07:20.728Z	START RequestId: 712554f0-28e1-cb39-bf32-12bfcffab844 Version: $LATEST
+2026-07-04T09:07:20.726Z	712554f0-28e1-cb39-bf32-12bfcffab844	INFO	Invoking SlothStay listings handler for affiliate=NAP traceId=Root=1-547b277b-e96ac0a68b20da723a5f0275
+2026-07-04T09:07:20.178Z	712554f0-28e1-cb39-bf32-12bfcffab844	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/NAP?start=0&count=25 succeeded (200)
+2026-07-04T09:07:20.370Z	END RequestId: 712554f0-28e1-cb39-bf32-12bfcffab844
+2026-07-04T09:07:20.520Z	REPORT RequestId: 712554f0-28e1-cb39-bf32-12bfcffab844	Duration: 174.00 ms	Billed Duration: 162 ms	Memory Size: 512 MB	Max Memory Used: 141 MB
+2026-07-04T09:07:40.824Z	START RequestId: f8413f4a-91a9-929e-5e0d-1fc43990e8a4 Version: $LATEST
+2026-07-04T09:07:40.826Z	f8413f4a-91a9-929e-5e0d-1fc43990e8a4	INFO	Invoking SlothStay listings handler for affiliate=DOZE traceId=Root=1-597f2e16-b7669251782d89c28dd842e3
+2026-07-04T09:07:40.415Z	f8413f4a-91a9-929e-5e0d-1fc43990e8a4	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/DOZE?start=0&count=25 succeeded (200)
+2026-07-04T09:07:40.464Z	END RequestId: f8413f4a-91a9-929e-5e0d-1fc43990e8a4
+2026-07-04T09:07:40.074Z	REPORT RequestId: f8413f4a-91a9-929e-5e0d-1fc43990e8a4	Duration: 412.00 ms	Billed Duration: 130 ms	Memory Size: 512 MB	Max Memory Used: 130 MB
+2026-07-04T09:08:15.521Z	START RequestId: 39049da4-0124-5600-8546-78d99215f852 Version: $LATEST
+2026-07-04T09:08:15.411Z	39049da4-0124-5600-8546-78d99215f852	INFO	Invoking SlothStay listings handler for affiliate=DOZE traceId=Root=1-52d5f56c-8131720fd6fedeb32f7e7167
+2026-07-04T09:08:15.041Z	39049da4-0124-5600-8546-78d99215f852	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/DOZE?start=0&count=25 succeeded (200)
+2026-07-04T09:08:15.039Z	END RequestId: 39049da4-0124-5600-8546-78d99215f852
+2026-07-04T09:08:15.140Z	REPORT RequestId: 39049da4-0124-5600-8546-78d99215f852	Duration: 425.00 ms	Billed Duration: 270 ms	Memory Size: 512 MB	Max Memory Used: 211 MB
+2026-07-04T09:08:29.964Z	START RequestId: a0f1052b-6ced-b023-5a85-2e55cbab9338 Version: $LATEST
+2026-07-04T09:08:29.996Z	a0f1052b-6ced-b023-5a85-2e55cbab9338	INFO	Invoking SlothStay listings handler for affiliate=PJS traceId=Root=1-592fb45d-8b4d5af9cbb07fcc9b92a9d2
+2026-07-04T09:08:29.789Z	a0f1052b-6ced-b023-5a85-2e55cbab9338	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/PJS?start=0&count=25 succeeded (200)
+2026-07-04T09:08:29.721Z	END RequestId: a0f1052b-6ced-b023-5a85-2e55cbab9338
+2026-07-04T09:08:29.212Z	REPORT RequestId: a0f1052b-6ced-b023-5a85-2e55cbab9338	Duration: 413.00 ms	Billed Duration: 460 ms	Memory Size: 512 MB	Max Memory Used: 215 MB
+2026-07-04T09:08:56.291Z	START RequestId: 2ff2ae7a-c440-ca3b-d0e6-de0dc2bd4049 Version: $LATEST
+2026-07-04T09:08:56.465Z	2ff2ae7a-c440-ca3b-d0e6-de0dc2bd4049	INFO	Invoking SlothStay listings handler for affiliate=PJS traceId=Root=1-eb498e65-c20f1eab3d4841b30e33157a
+2026-07-04T09:08:56.556Z	2ff2ae7a-c440-ca3b-d0e6-de0dc2bd4049	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/PJS?start=0&count=25 succeeded (200)
+2026-07-04T09:08:56.505Z	END RequestId: 2ff2ae7a-c440-ca3b-d0e6-de0dc2bd4049
+2026-07-04T09:08:56.910Z	REPORT RequestId: 2ff2ae7a-c440-ca3b-d0e6-de0dc2bd4049	Duration: 128.00 ms	Billed Duration: 358 ms	Memory Size: 512 MB	Max Memory Used: 209 MB
+2026-07-04T09:09:08.532Z	START RequestId: eecbaf53-f77f-5bec-cdca-9c885e1de382 Version: $LATEST
+2026-07-04T09:09:08.452Z	eecbaf53-f77f-5bec-cdca-9c885e1de382	INFO	Invoking SlothStay listings handler for affiliate=COZY traceId=Root=1-bab054a3-9a66561f7e0674599453a72a
+2026-07-04T09:09:08.696Z	eecbaf53-f77f-5bec-cdca-9c885e1de382	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/COZY?start=0&count=25 succeeded (200)
+2026-07-04T09:09:08.734Z	END RequestId: eecbaf53-f77f-5bec-cdca-9c885e1de382
+2026-07-04T09:09:08.597Z	REPORT RequestId: eecbaf53-f77f-5bec-cdca-9c885e1de382	Duration: 310.00 ms	Billed Duration: 146 ms	Memory Size: 512 MB	Max Memory Used: 220 MB
+2026-07-04T09:09:42.239Z	START RequestId: d1f62fdc-f7b6-6372-3ec0-a9ee3197ad30 Version: $LATEST
+2026-07-04T09:09:42.552Z	d1f62fdc-f7b6-6372-3ec0-a9ee3197ad30	INFO	Invoking SlothStay listings handler for affiliate=ZZZ traceId=Root=1-698a4040-316b80ef7422abf5e7e61fd2
+2026-07-04T09:09:42.772Z	d1f62fdc-f7b6-6372-3ec0-a9ee3197ad30	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/ZZZ?start=0&count=25 succeeded (200)
+2026-07-04T09:09:42.057Z	END RequestId: d1f62fdc-f7b6-6372-3ec0-a9ee3197ad30
+2026-07-04T09:09:42.143Z	REPORT RequestId: d1f62fdc-f7b6-6372-3ec0-a9ee3197ad30	Duration: 317.00 ms	Billed Duration: 248 ms	Memory Size: 512 MB	Max Memory Used: 149 MB
+2026-07-04T09:10:07.664Z	START RequestId: 3aed1b34-a9d3-cb87-d5f0-ef1f7393e8c6 Version: $LATEST
+2026-07-04T09:10:07.367Z	3aed1b34-a9d3-cb87-d5f0-ef1f7393e8c6	INFO	Invoking SlothStay listings handler for affiliate=COZY traceId=Root=1-42a340fe-ea67ffac5626c7d4bce8f823
+2026-07-04T09:10:07.267Z	3aed1b34-a9d3-cb87-d5f0-ef1f7393e8c6	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/COZY?start=0&count=25 succeeded (200)
+2026-07-04T09:10:07.525Z	END RequestId: 3aed1b34-a9d3-cb87-d5f0-ef1f7393e8c6
+2026-07-04T09:10:07.903Z	REPORT RequestId: 3aed1b34-a9d3-cb87-d5f0-ef1f7393e8c6	Duration: 314.00 ms	Billed Duration: 338 ms	Memory Size: 512 MB	Max Memory Used: 115 MB
+2026-07-04T09:10:32.406Z	START RequestId: d002a123-70ae-ea08-60b8-48b6f2e83945 Version: $LATEST
+2026-07-04T09:10:32.080Z	d002a123-70ae-ea08-60b8-48b6f2e83945	INFO	Invoking SlothStay listings handler for affiliate=YAWN traceId=Root=1-50db089b-433938f5c7bb7b5282eff8d1
+2026-07-04T09:10:32.982Z	d002a123-70ae-ea08-60b8-48b6f2e83945	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/YAWN?start=0&count=25 succeeded (200)
+2026-07-04T09:10:32.470Z	END RequestId: d002a123-70ae-ea08-60b8-48b6f2e83945
+2026-07-04T09:10:32.578Z	REPORT RequestId: d002a123-70ae-ea08-60b8-48b6f2e83945	Duration: 184.00 ms	Billed Duration: 456 ms	Memory Size: 512 MB	Max Memory Used: 147 MB
+2026-07-04T09:10:39.274Z	START RequestId: 3d6e5c2f-b8f0-6d5c-f6c0-4f75f6aa19cb Version: $LATEST
+2026-07-04T09:10:39.157Z	3d6e5c2f-b8f0-6d5c-f6c0-4f75f6aa19cb	INFO	Invoking SlothStay listings handler for affiliate=NAP traceId=Root=1-6800276c-9d1803de701ee90e5f9cb612
+2026-07-04T09:10:39.728Z	3d6e5c2f-b8f0-6d5c-f6c0-4f75f6aa19cb	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/NAP?start=0&count=25 succeeded (200)
+2026-07-04T09:10:39.649Z	END RequestId: 3d6e5c2f-b8f0-6d5c-f6c0-4f75f6aa19cb
+2026-07-04T09:10:39.157Z	REPORT RequestId: 3d6e5c2f-b8f0-6d5c-f6c0-4f75f6aa19cb	Duration: 438.00 ms	Billed Duration: 299 ms	Memory Size: 512 MB	Max Memory Used: 171 MB
+2026-07-04T09:10:49.184Z	START RequestId: b797206d-6d76-da94-9b72-65bafc54c5e3 Version: $LATEST
+2026-07-04T09:10:49.698Z	b797206d-6d76-da94-9b72-65bafc54c5e3	INFO	Invoking SlothStay listings handler for affiliate=SLOTH traceId=Root=1-7c116881-189cd06cb8f38a2442244c5f
+2026-07-04T09:10:49.027Z	b797206d-6d76-da94-9b72-65bafc54c5e3	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/SLOTH?start=0&count=25 succeeded (200)
+2026-07-04T09:10:49.472Z	END RequestId: b797206d-6d76-da94-9b72-65bafc54c5e3
+2026-07-04T09:10:49.965Z	REPORT RequestId: b797206d-6d76-da94-9b72-65bafc54c5e3	Duration: 422.00 ms	Billed Duration: 207 ms	Memory Size: 512 MB	Max Memory Used: 202 MB
+2026-07-04T09:10:58.952Z	START RequestId: 4889976c-9850-16f1-f247-3777b54c1daa Version: $LATEST
+2026-07-04T09:10:58.758Z	4889976c-9850-16f1-f247-3777b54c1daa	INFO	Invoking SlothStay listings handler for affiliate=SNUG traceId=Root=1-7a3abc1f-768eb8c5e8a1ca5a0fa6cf60
+2026-07-04T09:10:58.528Z	4889976c-9850-16f1-f247-3777b54c1daa	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/SNUG?start=0&count=25 succeeded (200)
+2026-07-04T09:10:58.565Z	END RequestId: 4889976c-9850-16f1-f247-3777b54c1daa
+2026-07-04T09:10:58.163Z	REPORT RequestId: 4889976c-9850-16f1-f247-3777b54c1daa	Duration: 229.00 ms	Billed Duration: 386 ms	Memory Size: 512 MB	Max Memory Used: 199 MB
+2026-07-04T09:11:17.578Z	START RequestId: 12142b86-262a-baf8-7257-0502df87a6d7 Version: $LATEST
+2026-07-04T09:11:17.031Z	12142b86-262a-baf8-7257-0502df87a6d7	INFO	Invoking SlothStay listings handler for affiliate=SNUG traceId=Root=1-2a609396-b3cc11d2574d8a9995d9db49
+2026-07-04T09:11:17.299Z	12142b86-262a-baf8-7257-0502df87a6d7	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/SNUG?start=0&count=25 succeeded (200)
+2026-07-04T09:11:17.281Z	END RequestId: 12142b86-262a-baf8-7257-0502df87a6d7
+2026-07-04T09:11:17.230Z	REPORT RequestId: 12142b86-262a-baf8-7257-0502df87a6d7	Duration: 335.00 ms	Billed Duration: 247 ms	Memory Size: 512 MB	Max Memory Used: 133 MB
+2026-07-04T09:11:58.284Z	START RequestId: 9892f49f-8ed2-c604-ab22-53d62aa61cc6 Version: $LATEST
+2026-07-04T09:11:58.711Z	9892f49f-8ed2-c604-ab22-53d62aa61cc6	INFO	Invoking SlothStay listings handler for affiliate=DOZE traceId=Root=1-8948f8cc-736ba3d04d1d1c3bbd969cdc
+2026-07-04T09:11:58.465Z	9892f49f-8ed2-c604-ab22-53d62aa61cc6	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/DOZE?start=0&count=25 succeeded (200)
+2026-07-04T09:11:58.335Z	END RequestId: 9892f49f-8ed2-c604-ab22-53d62aa61cc6
+2026-07-04T09:11:58.595Z	REPORT RequestId: 9892f49f-8ed2-c604-ab22-53d62aa61cc6	Duration: 61.00 ms	Billed Duration: 496 ms	Memory Size: 512 MB	Max Memory Used: 113 MB
+2026-07-04T09:12:43.624Z	START RequestId: e264b3ab-0723-a0bd-f621-6b15e2cc2f28 Version: $LATEST
+2026-07-04T09:12:43.665Z	e264b3ab-0723-a0bd-f621-6b15e2cc2f28	INFO	Invoking SlothStay listings handler for affiliate=COZY traceId=Root=1-183634d5-9975a01c71d70f3b2a2e4a45
+2026-07-04T09:12:43.450Z	e264b3ab-0723-a0bd-f621-6b15e2cc2f28	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/COZY?start=0&count=25 succeeded (200)
+2026-07-04T09:12:43.739Z	END RequestId: e264b3ab-0723-a0bd-f621-6b15e2cc2f28
+2026-07-04T09:12:43.218Z	REPORT RequestId: e264b3ab-0723-a0bd-f621-6b15e2cc2f28	Duration: 381.00 ms	Billed Duration: 483 ms	Memory Size: 512 MB	Max Memory Used: 128 MB
+2026-07-04T09:13:27.697Z	START RequestId: 556d6827-f190-3ef6-4bc6-6a8211ef259c Version: $LATEST
+2026-07-04T09:13:27.658Z	556d6827-f190-3ef6-4bc6-6a8211ef259c	INFO	Invoking SlothStay listings handler for affiliate=DOZE traceId=Root=1-3e21b56c-3a39b4f0de3936acc363a1e0
+2026-07-04T09:13:27.317Z	556d6827-f190-3ef6-4bc6-6a8211ef259c	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/DOZE?start=0&count=25 succeeded (200)
+2026-07-04T09:13:27.447Z	END RequestId: 556d6827-f190-3ef6-4bc6-6a8211ef259c
+2026-07-04T09:13:27.747Z	REPORT RequestId: 556d6827-f190-3ef6-4bc6-6a8211ef259c	Duration: 493.00 ms	Billed Duration: 222 ms	Memory Size: 512 MB	Max Memory Used: 104 MB
+2026-07-04T09:14:21.475Z	START RequestId: 05e2f0cb-a33e-5d91-a038-06edc41754cb Version: $LATEST
+2026-07-04T09:14:21.377Z	05e2f0cb-a33e-5d91-a038-06edc41754cb	INFO	Invoking SlothStay listings handler for affiliate=ZZZ traceId=Root=1-0758d45b-db1e5684fa780d22cea1b0d0
+2026-07-04T09:14:21.995Z	05e2f0cb-a33e-5d91-a038-06edc41754cb	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/ZZZ?start=0&count=25 succeeded (200)
+2026-07-04T09:14:21.791Z	END RequestId: 05e2f0cb-a33e-5d91-a038-06edc41754cb
+2026-07-04T09:14:21.794Z	REPORT RequestId: 05e2f0cb-a33e-5d91-a038-06edc41754cb	Duration: 160.00 ms	Billed Duration: 475 ms	Memory Size: 512 MB	Max Memory Used: 152 MB
+2026-07-04T09:14:52.266Z	START RequestId: de6d573f-2c11-7515-c77d-1c4b93d2bf60 Version: $LATEST
+2026-07-04T09:14:52.839Z	de6d573f-2c11-7515-c77d-1c4b93d2bf60	INFO	Invoking SlothStay listings handler for affiliate=SLOTH traceId=Root=1-8ab05c6b-43f6ff2403d6e7b98a690a24
+2026-07-04T09:14:52.031Z	de6d573f-2c11-7515-c77d-1c4b93d2bf60	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/SLOTH?start=0&count=25 succeeded (200)
+2026-07-04T09:14:52.875Z	END RequestId: de6d573f-2c11-7515-c77d-1c4b93d2bf60
+2026-07-04T09:14:52.463Z	REPORT RequestId: de6d573f-2c11-7515-c77d-1c4b93d2bf60	Duration: 344.00 ms	Billed Duration: 483 ms	Memory Size: 512 MB	Max Memory Used: 153 MB
+2026-07-04T09:15:03.997Z	START RequestId: 09346804-23e8-accf-c587-e86253ec0f8c Version: $LATEST
+2026-07-04T09:15:03.163Z	09346804-23e8-accf-c587-e86253ec0f8c	INFO	Invoking SlothStay listings handler for affiliate=ZZZ traceId=Root=1-0df2d5aa-94d01e72ed50729d60a2324e
+2026-07-04T09:15:03.253Z	09346804-23e8-accf-c587-e86253ec0f8c	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/ZZZ?start=0&count=25 succeeded (200)
+2026-07-04T09:15:03.246Z	END RequestId: 09346804-23e8-accf-c587-e86253ec0f8c
+2026-07-04T09:15:03.272Z	REPORT RequestId: 09346804-23e8-accf-c587-e86253ec0f8c	Duration: 333.00 ms	Billed Duration: 477 ms	Memory Size: 512 MB	Max Memory Used: 104 MB
+2026-07-04T09:15:44.988Z	START RequestId: b21851ba-955f-b6a7-5b8e-95ad6b420b9d Version: $LATEST
+2026-07-04T09:15:44.581Z	b21851ba-955f-b6a7-5b8e-95ad6b420b9d	INFO	Invoking SlothStay listings handler for affiliate=SNUG traceId=Root=1-ef235b59-b592fdcf820090759c52cd02
+2026-07-04T09:15:44.186Z	b21851ba-955f-b6a7-5b8e-95ad6b420b9d	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/SNUG?start=0&count=25 succeeded (200)
+2026-07-04T09:15:44.325Z	END RequestId: b21851ba-955f-b6a7-5b8e-95ad6b420b9d
+2026-07-04T09:15:44.943Z	REPORT RequestId: b21851ba-955f-b6a7-5b8e-95ad6b420b9d	Duration: 474.00 ms	Billed Duration: 413 ms	Memory Size: 512 MB	Max Memory Used: 146 MB
+2026-07-04T09:15:55.301Z	START RequestId: 0415e21f-f5fe-b6a9-605f-68e8a4168700 Version: $LATEST
+2026-07-04T09:15:55.843Z	0415e21f-f5fe-b6a9-605f-68e8a4168700	INFO	Invoking SlothStay listings handler for affiliate=DOZE traceId=Root=1-5155afda-b503b5cb07626e56dc9c37c0
+2026-07-04T09:15:55.640Z	0415e21f-f5fe-b6a9-605f-68e8a4168700	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/DOZE?start=0&count=25 succeeded (200)
+2026-07-04T09:15:55.491Z	END RequestId: 0415e21f-f5fe-b6a9-605f-68e8a4168700
+2026-07-04T09:15:55.204Z	REPORT RequestId: 0415e21f-f5fe-b6a9-605f-68e8a4168700	Duration: 109.00 ms	Billed Duration: 113 ms	Memory Size: 512 MB	Max Memory Used: 142 MB
+2026-07-04T09:16:05.535Z	START RequestId: 6d0989f2-f7f2-3301-a3d2-95bc188d8e0b Version: $LATEST
+2026-07-04T09:16:05.800Z	6d0989f2-f7f2-3301-a3d2-95bc188d8e0b	INFO	Invoking SlothStay listings handler for affiliate=DOZE traceId=Root=1-1c7e4a65-62074d92b1ac6c3068fae934
+2026-07-04T09:16:05.115Z	6d0989f2-f7f2-3301-a3d2-95bc188d8e0b	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/DOZE?start=0&count=25 succeeded (200)
+2026-07-04T09:16:05.153Z	END RequestId: 6d0989f2-f7f2-3301-a3d2-95bc188d8e0b
+2026-07-04T09:16:05.151Z	REPORT RequestId: 6d0989f2-f7f2-3301-a3d2-95bc188d8e0b	Duration: 350.00 ms	Billed Duration: 401 ms	Memory Size: 512 MB	Max Memory Used: 115 MB
+2026-07-04T09:16:46.983Z	START RequestId: 6a33dbcd-d824-82de-03dd-37eb4d8a1059 Version: $LATEST
+2026-07-04T09:16:46.891Z	6a33dbcd-d824-82de-03dd-37eb4d8a1059	INFO	Invoking SlothStay listings handler for affiliate=NAP traceId=Root=1-48566790-429b0e53bee0d447b1d2f7d4
+2026-07-04T09:16:46.600Z	6a33dbcd-d824-82de-03dd-37eb4d8a1059	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/NAP?start=0&count=25 succeeded (200)
+2026-07-04T09:16:46.358Z	END RequestId: 6a33dbcd-d824-82de-03dd-37eb4d8a1059
+2026-07-04T09:16:46.352Z	REPORT RequestId: 6a33dbcd-d824-82de-03dd-37eb4d8a1059	Duration: 143.00 ms	Billed Duration: 232 ms	Memory Size: 512 MB	Max Memory Used: 113 MB
+2026-07-04T09:17:15.227Z	START RequestId: d894a754-54af-a383-0dc6-52074e6b9fd5 Version: $LATEST
+2026-07-04T09:17:15.702Z	d894a754-54af-a383-0dc6-52074e6b9fd5	INFO	Invoking SlothStay listings handler for affiliate=SLOTH traceId=Root=1-dc3333a8-dfa722c39fbb4ed7348990ff
+2026-07-04T09:17:15.653Z	d894a754-54af-a383-0dc6-52074e6b9fd5	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/SLOTH?start=0&count=25 succeeded (200)
+2026-07-04T09:17:15.487Z	END RequestId: d894a754-54af-a383-0dc6-52074e6b9fd5
+2026-07-04T09:17:15.928Z	REPORT RequestId: d894a754-54af-a383-0dc6-52074e6b9fd5	Duration: 403.00 ms	Billed Duration: 283 ms	Memory Size: 512 MB	Max Memory Used: 219 MB
+2026-07-04T09:17:55.231Z	START RequestId: 9e75bc7a-2a04-c2c7-c19a-6f603505d3aa Version: $LATEST
+2026-07-04T09:17:55.710Z	9e75bc7a-2a04-c2c7-c19a-6f603505d3aa	INFO	Invoking SlothStay listings handler for affiliate=ZZZ traceId=Root=1-124cc2a5-15b4c544d7d9f1e8d640d236
+2026-07-04T09:17:55.319Z	9e75bc7a-2a04-c2c7-c19a-6f603505d3aa	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/ZZZ?start=0&count=25 succeeded (200)
+2026-07-04T09:17:55.105Z	END RequestId: 9e75bc7a-2a04-c2c7-c19a-6f603505d3aa
+2026-07-04T09:17:55.392Z	REPORT RequestId: 9e75bc7a-2a04-c2c7-c19a-6f603505d3aa	Duration: 317.00 ms	Billed Duration: 401 ms	Memory Size: 512 MB	Max Memory Used: 168 MB
+2026-07-04T09:18:02.855Z	START RequestId: 14b3a061-89b6-e894-c79c-df5628eb7301 Version: $LATEST
+2026-07-04T09:18:02.587Z	14b3a061-89b6-e894-c79c-df5628eb7301	INFO	Invoking SlothStay listings handler for affiliate=LAZY traceId=Root=1-7886a2f7-c2ec03f3081bc6ac9901d017
+2026-07-04T09:18:02.505Z	14b3a061-89b6-e894-c79c-df5628eb7301	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/LAZY?start=0&count=25 succeeded (200)
+2026-07-04T09:18:02.972Z	END RequestId: 14b3a061-89b6-e894-c79c-df5628eb7301
+2026-07-04T09:18:02.092Z	REPORT RequestId: 14b3a061-89b6-e894-c79c-df5628eb7301	Duration: 459.00 ms	Billed Duration: 361 ms	Memory Size: 512 MB	Max Memory Used: 109 MB
+2026-07-04T09:18:23.443Z	START RequestId: b0f269ca-2650-adf2-e160-45bac99fa58b Version: $LATEST
+2026-07-04T09:18:23.677Z	b0f269ca-2650-adf2-e160-45bac99fa58b	INFO	Invoking SlothStay listings handler for affiliate=YAWN traceId=Root=1-f471204c-5b1c0da2579e1d26f46dcac1
+2026-07-04T09:18:23.493Z	b0f269ca-2650-adf2-e160-45bac99fa58b	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/YAWN?start=0&count=25 succeeded (200)
+2026-07-04T09:18:23.679Z	END RequestId: b0f269ca-2650-adf2-e160-45bac99fa58b
+2026-07-04T09:18:23.692Z	REPORT RequestId: b0f269ca-2650-adf2-e160-45bac99fa58b	Duration: 388.00 ms	Billed Duration: 297 ms	Memory Size: 512 MB	Max Memory Used: 128 MB
+2026-07-04T09:19:07.346Z	START RequestId: af503789-7ab1-c35d-f48b-022bb193e67c Version: $LATEST
+2026-07-04T09:19:07.110Z	af503789-7ab1-c35d-f48b-022bb193e67c	INFO	Invoking SlothStay listings handler for affiliate=SLOTH traceId=Root=1-a2ddd173-f03a637c7d717a1680199483
+2026-07-04T09:19:07.047Z	af503789-7ab1-c35d-f48b-022bb193e67c	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/SLOTH?start=0&count=25 succeeded (200)
+2026-07-04T09:19:07.857Z	END RequestId: af503789-7ab1-c35d-f48b-022bb193e67c
+2026-07-04T09:19:07.688Z	REPORT RequestId: af503789-7ab1-c35d-f48b-022bb193e67c	Duration: 361.00 ms	Billed Duration: 163 ms	Memory Size: 512 MB	Max Memory Used: 205 MB
+2026-07-04T09:19:44.859Z	START RequestId: 833bae2b-f28a-bc89-fbae-8e6016004cfa Version: $LATEST
+2026-07-04T09:19:44.063Z	833bae2b-f28a-bc89-fbae-8e6016004cfa	INFO	Invoking SlothStay listings handler for affiliate=ZZZ traceId=Root=1-0b869ece-b2d1a95e69b3654c29e8d85b
+2026-07-04T09:19:44.208Z	833bae2b-f28a-bc89-fbae-8e6016004cfa	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/ZZZ?start=0&count=25 succeeded (200)
+2026-07-04T09:19:44.554Z	END RequestId: 833bae2b-f28a-bc89-fbae-8e6016004cfa
+2026-07-04T09:19:44.033Z	REPORT RequestId: 833bae2b-f28a-bc89-fbae-8e6016004cfa	Duration: 243.00 ms	Billed Duration: 331 ms	Memory Size: 512 MB	Max Memory Used: 116 MB
+2026-07-04T09:20:03.486Z	START RequestId: 682945b2-250e-9a79-5c53-21868133553c Version: $LATEST
+2026-07-04T09:20:03.574Z	682945b2-250e-9a79-5c53-21868133553c	INFO	Invoking SlothStay listings handler for affiliate=PJS traceId=Root=1-3cc4ae6f-f58049cddebac89cf42a2286
+2026-07-04T09:20:03.009Z	682945b2-250e-9a79-5c53-21868133553c	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/PJS?start=0&count=25 succeeded (200)
+2026-07-04T09:20:03.684Z	END RequestId: 682945b2-250e-9a79-5c53-21868133553c
+2026-07-04T09:20:03.354Z	REPORT RequestId: 682945b2-250e-9a79-5c53-21868133553c	Duration: 288.00 ms	Billed Duration: 223 ms	Memory Size: 512 MB	Max Memory Used: 152 MB
+2026-07-04T09:20:28.139Z	START RequestId: 0b01241d-e676-5610-b1b0-d584a94e6d02 Version: $LATEST
+2026-07-04T09:20:28.764Z	0b01241d-e676-5610-b1b0-d584a94e6d02	INFO	Invoking SlothStay listings handler for affiliate=SNUG traceId=Root=1-c14b08c8-874a511fc8a3a3ad3deb6d1a
+2026-07-04T09:20:28.815Z	0b01241d-e676-5610-b1b0-d584a94e6d02	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/SNUG?start=0&count=25 succeeded (200)
+2026-07-04T09:20:28.302Z	END RequestId: 0b01241d-e676-5610-b1b0-d584a94e6d02
+2026-07-04T09:20:28.983Z	REPORT RequestId: 0b01241d-e676-5610-b1b0-d584a94e6d02	Duration: 384.00 ms	Billed Duration: 173 ms	Memory Size: 512 MB	Max Memory Used: 166 MB
+2026-07-04T09:20:33.751Z	START RequestId: a19e5794-9955-6033-b6d2-be754829dd28 Version: $LATEST
+2026-07-04T09:20:33.907Z	a19e5794-9955-6033-b6d2-be754829dd28	INFO	Invoking SlothStay listings handler for affiliate=PJS traceId=Root=1-81098f4b-e56a823d32cddef78411b752
+2026-07-04T09:20:33.078Z	a19e5794-9955-6033-b6d2-be754829dd28	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/PJS?start=0&count=25 succeeded (200)
+2026-07-04T09:20:33.077Z	END RequestId: a19e5794-9955-6033-b6d2-be754829dd28
+2026-07-04T09:20:33.913Z	REPORT RequestId: a19e5794-9955-6033-b6d2-be754829dd28	Duration: 69.00 ms	Billed Duration: 359 ms	Memory Size: 512 MB	Max Memory Used: 97 MB
+2026-07-04T09:21:15.450Z	START RequestId: 1503e577-0f5b-8dd4-82a5-ad86e85d7798 Version: $LATEST
+2026-07-04T09:21:15.169Z	1503e577-0f5b-8dd4-82a5-ad86e85d7798	INFO	Invoking SlothStay listings handler for affiliate=SNUG traceId=Root=1-9e88f7c5-3cb47868adc92872fafb7537
+2026-07-04T09:21:15.078Z	1503e577-0f5b-8dd4-82a5-ad86e85d7798	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/SNUG?start=0&count=25 succeeded (200)
+2026-07-04T09:21:15.658Z	END RequestId: 1503e577-0f5b-8dd4-82a5-ad86e85d7798
+2026-07-04T09:21:15.287Z	REPORT RequestId: 1503e577-0f5b-8dd4-82a5-ad86e85d7798	Duration: 168.00 ms	Billed Duration: 176 ms	Memory Size: 512 MB	Max Memory Used: 137 MB
+2026-07-04T09:21:58.895Z	START RequestId: cd2a4b57-9361-3d86-2179-0c81729deca8 Version: $LATEST
+2026-07-04T09:21:58.044Z	cd2a4b57-9361-3d86-2179-0c81729deca8	INFO	Invoking SlothStay listings handler for affiliate=NAP traceId=Root=1-3cb7732d-0092a09042f990ba417fd2d9
+2026-07-04T09:21:58.439Z	cd2a4b57-9361-3d86-2179-0c81729deca8	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/NAP?start=0&count=25 succeeded (200)
+2026-07-04T09:21:58.960Z	END RequestId: cd2a4b57-9361-3d86-2179-0c81729deca8
+2026-07-04T09:21:58.821Z	REPORT RequestId: cd2a4b57-9361-3d86-2179-0c81729deca8	Duration: 306.00 ms	Billed Duration: 493 ms	Memory Size: 512 MB	Max Memory Used: 187 MB
+2026-07-04T09:22:39.058Z	START RequestId: 45bbdab7-b236-58bb-2f01-2e613106f98b Version: $LATEST
+2026-07-04T09:22:39.968Z	45bbdab7-b236-58bb-2f01-2e613106f98b	INFO	Invoking SlothStay listings handler for affiliate=NAP traceId=Root=1-273d4e63-bc910ab552a4d654ac6c7584
+2026-07-04T09:22:39.655Z	45bbdab7-b236-58bb-2f01-2e613106f98b	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/NAP?start=0&count=25 succeeded (200)
+2026-07-04T09:22:39.449Z	END RequestId: 45bbdab7-b236-58bb-2f01-2e613106f98b
+2026-07-04T09:22:39.010Z	REPORT RequestId: 45bbdab7-b236-58bb-2f01-2e613106f98b	Duration: 163.00 ms	Billed Duration: 436 ms	Memory Size: 512 MB	Max Memory Used: 163 MB
+2026-07-04T09:23:22.362Z	START RequestId: 848c4767-35ca-ed74-6c3b-c658b446b582 Version: $LATEST
+2026-07-04T09:23:22.223Z	848c4767-35ca-ed74-6c3b-c658b446b582	INFO	Invoking SlothStay listings handler for affiliate=PJS traceId=Root=1-b9a5af14-6a630be8b895d3f760288851
+2026-07-04T09:23:22.275Z	848c4767-35ca-ed74-6c3b-c658b446b582	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/PJS?start=0&count=25 succeeded (200)
+2026-07-04T09:23:22.969Z	END RequestId: 848c4767-35ca-ed74-6c3b-c658b446b582
+2026-07-04T09:23:22.764Z	REPORT RequestId: 848c4767-35ca-ed74-6c3b-c658b446b582	Duration: 409.00 ms	Billed Duration: 197 ms	Memory Size: 512 MB	Max Memory Used: 217 MB
+2026-07-04T09:23:42.819Z	START RequestId: c71850a6-15d2-44f5-266c-5679fadbc8d3 Version: $LATEST
+2026-07-04T09:23:42.982Z	c71850a6-15d2-44f5-266c-5679fadbc8d3	INFO	Invoking SlothStay listings handler for affiliate=YAWN traceId=Root=1-43dd5c11-f70dfd55ee942c86c286f05d
+2026-07-04T09:23:42.756Z	c71850a6-15d2-44f5-266c-5679fadbc8d3	ERROR	PillowFightOverflowException: backend rejected request (too many pillows in flight)
+2026-07-04T09:23:42.153Z	END RequestId: c71850a6-15d2-44f5-266c-5679fadbc8d3
+2026-07-04T09:23:42.484Z	REPORT RequestId: c71850a6-15d2-44f5-266c-5679fadbc8d3	Duration: 512.44 ms	Billed Duration: 513 ms	Memory Size: 512 MB	Max Memory Used: 118 MB
+2026-07-04T09:23:52.717Z	START RequestId: 8c7197fd-ae69-6e15-5ab9-6ecfb872d234 Version: $LATEST
+2026-07-04T09:23:52.767Z	8c7197fd-ae69-6e15-5ab9-6ecfb872d234	INFO	Invoking SlothStay listings handler for affiliate=SLOTH traceId=Root=1-62ea8574-d01234d1b458c565a99a8f45
+2026-07-04T09:23:52.215Z	8c7197fd-ae69-6e15-5ab9-6ecfb872d234	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/SLOTH?start=0&count=25 succeeded (200)
+2026-07-04T09:23:52.406Z	END RequestId: 8c7197fd-ae69-6e15-5ab9-6ecfb872d234
+2026-07-04T09:23:52.105Z	REPORT RequestId: 8c7197fd-ae69-6e15-5ab9-6ecfb872d234	Duration: 108.00 ms	Billed Duration: 132 ms	Memory Size: 512 MB	Max Memory Used: 211 MB
+2026-07-04T09:23:58.627Z	START RequestId: 8c75440d-d570-ef70-6430-56862b66463c Version: $LATEST
+2026-07-04T09:23:58.826Z	8c75440d-d570-ef70-6430-56862b66463c	INFO	Invoking SlothStay listings handler for affiliate=SNUG traceId=Root=1-c142ae43-4a2d0ad57f847fb29aa98a45
+2026-07-04T09:23:58.278Z	8c75440d-d570-ef70-6430-56862b66463c	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/SNUG?start=0&count=25 succeeded (200)
+2026-07-04T09:23:58.664Z	END RequestId: 8c75440d-d570-ef70-6430-56862b66463c
+2026-07-04T09:23:58.760Z	REPORT RequestId: 8c75440d-d570-ef70-6430-56862b66463c	Duration: 332.00 ms	Billed Duration: 237 ms	Memory Size: 512 MB	Max Memory Used: 195 MB
+2026-07-04T09:24:14.808Z	START RequestId: 60fb6f3f-3b1a-36fe-2bb8-17450af360c9 Version: $LATEST
+2026-07-04T09:24:14.248Z	60fb6f3f-3b1a-36fe-2bb8-17450af360c9	INFO	Invoking SlothStay listings handler for affiliate=ZZZ traceId=Root=1-177b752f-0f42701036c75b01c24682e4
+2026-07-04T09:24:14.992Z	60fb6f3f-3b1a-36fe-2bb8-17450af360c9	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/ZZZ?start=0&count=25 succeeded (200)
+2026-07-04T09:24:14.595Z	END RequestId: 60fb6f3f-3b1a-36fe-2bb8-17450af360c9
+2026-07-04T09:24:14.802Z	REPORT RequestId: 60fb6f3f-3b1a-36fe-2bb8-17450af360c9	Duration: 413.00 ms	Billed Duration: 343 ms	Memory Size: 512 MB	Max Memory Used: 129 MB
+2026-07-04T09:24:34.032Z	START RequestId: 8124450a-620d-c3ba-8687-895a181d2d37 Version: $LATEST
+2026-07-04T09:24:34.584Z	8124450a-620d-c3ba-8687-895a181d2d37	INFO	Invoking SlothStay listings handler for affiliate=ZZZ traceId=Root=1-19efa0ab-c23fccc73b52e774b325b4de
+2026-07-04T09:24:34.856Z	8124450a-620d-c3ba-8687-895a181d2d37	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/ZZZ?start=0&count=25 succeeded (200)
+2026-07-04T09:24:34.673Z	END RequestId: 8124450a-620d-c3ba-8687-895a181d2d37
+2026-07-04T09:24:34.501Z	REPORT RequestId: 8124450a-620d-c3ba-8687-895a181d2d37	Duration: 329.00 ms	Billed Duration: 419 ms	Memory Size: 512 MB	Max Memory Used: 155 MB
+2026-07-04T09:24:53.006Z	START RequestId: 7ae22652-f755-f55c-6b99-3ce4f76bf98f Version: $LATEST
+2026-07-04T09:24:53.307Z	7ae22652-f755-f55c-6b99-3ce4f76bf98f	INFO	Invoking SlothStay listings handler for affiliate=NAP traceId=Root=1-e37e1c08-f65bd4014ff1b8383a2b61a5
+2026-07-04T09:24:53.219Z	7ae22652-f755-f55c-6b99-3ce4f76bf98f	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/NAP?start=0&count=25 succeeded (200)
+2026-07-04T09:24:53.022Z	END RequestId: 7ae22652-f755-f55c-6b99-3ce4f76bf98f
+2026-07-04T09:24:53.790Z	REPORT RequestId: 7ae22652-f755-f55c-6b99-3ce4f76bf98f	Duration: 480.00 ms	Billed Duration: 453 ms	Memory Size: 512 MB	Max Memory Used: 160 MB
+2026-07-04T09:25:30.404Z	START RequestId: 3a90c640-8283-0b67-9834-62190618c228 Version: $LATEST
+2026-07-04T09:25:30.667Z	3a90c640-8283-0b67-9834-62190618c228	INFO	Invoking SlothStay listings handler for affiliate=PJS traceId=Root=1-e2052593-c16ebbc2db9e94b910c5d6dd
+2026-07-04T09:25:30.200Z	3a90c640-8283-0b67-9834-62190618c228	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/PJS?start=0&count=25 succeeded (200)
+2026-07-04T09:25:30.630Z	END RequestId: 3a90c640-8283-0b67-9834-62190618c228
+2026-07-04T09:25:30.753Z	REPORT RequestId: 3a90c640-8283-0b67-9834-62190618c228	Duration: 328.00 ms	Billed Duration: 226 ms	Memory Size: 512 MB	Max Memory Used: 152 MB
+2026-07-04T09:26:02.611Z	START RequestId: 83847b2b-09a0-24c9-0a06-4dad0da36f15 Version: $LATEST
+2026-07-04T09:26:02.544Z	83847b2b-09a0-24c9-0a06-4dad0da36f15	INFO	Invoking SlothStay listings handler for affiliate=COZY traceId=Root=1-e1a65590-4f9f720d35cd10fedd0b1703
+2026-07-04T09:26:02.190Z	83847b2b-09a0-24c9-0a06-4dad0da36f15	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/COZY?start=0&count=25 succeeded (200)
+2026-07-04T09:26:02.512Z	END RequestId: 83847b2b-09a0-24c9-0a06-4dad0da36f15
+2026-07-04T09:26:02.989Z	REPORT RequestId: 83847b2b-09a0-24c9-0a06-4dad0da36f15	Duration: 294.00 ms	Billed Duration: 387 ms	Memory Size: 512 MB	Max Memory Used: 95 MB
+2026-07-04T09:26:40.780Z	START RequestId: a9a32bee-6eca-9218-b2d2-05ff4bdab232 Version: $LATEST
+2026-07-04T09:26:40.626Z	a9a32bee-6eca-9218-b2d2-05ff4bdab232	INFO	Invoking SlothStay listings handler for affiliate=LAZY traceId=Root=1-7b0a54ff-4046ffff3562b8ada6964972
+2026-07-04T09:26:40.273Z	a9a32bee-6eca-9218-b2d2-05ff4bdab232	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/LAZY?start=0&count=25 succeeded (200)
+2026-07-04T09:26:40.580Z	END RequestId: a9a32bee-6eca-9218-b2d2-05ff4bdab232
+2026-07-04T09:26:40.627Z	REPORT RequestId: a9a32bee-6eca-9218-b2d2-05ff4bdab232	Duration: 178.00 ms	Billed Duration: 405 ms	Memory Size: 512 MB	Max Memory Used: 149 MB
+2026-07-04T09:27:07.712Z	START RequestId: 98ab017e-e38f-06cf-37ec-424ebe7a1829 Version: $LATEST
+2026-07-04T09:27:07.559Z	98ab017e-e38f-06cf-37ec-424ebe7a1829	INFO	Invoking SlothStay listings handler for affiliate=NAP traceId=Root=1-c2d7a267-236fef3a332f79bde6c9db6f
+2026-07-04T09:27:07.402Z	98ab017e-e38f-06cf-37ec-424ebe7a1829	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/NAP?start=0&count=25 succeeded (200)
+2026-07-04T09:27:07.331Z	END RequestId: 98ab017e-e38f-06cf-37ec-424ebe7a1829
+2026-07-04T09:27:07.461Z	REPORT RequestId: 98ab017e-e38f-06cf-37ec-424ebe7a1829	Duration: 72.00 ms	Billed Duration: 191 ms	Memory Size: 512 MB	Max Memory Used: 206 MB
+2026-07-04T09:27:41.609Z	START RequestId: c077c973-a779-0e4a-d320-52099511f24a Version: $LATEST
+2026-07-04T09:27:41.586Z	c077c973-a779-0e4a-d320-52099511f24a	INFO	Invoking SlothStay listings handler for affiliate=NAP traceId=Root=1-5ab2b1ba-1bbf928025dd22c04bf42ef0
+2026-07-04T09:27:41.181Z	c077c973-a779-0e4a-d320-52099511f24a	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/NAP?start=0&count=25 succeeded (200)
+2026-07-04T09:27:41.767Z	END RequestId: c077c973-a779-0e4a-d320-52099511f24a
+2026-07-04T09:27:41.592Z	REPORT RequestId: c077c973-a779-0e4a-d320-52099511f24a	Duration: 244.00 ms	Billed Duration: 118 ms	Memory Size: 512 MB	Max Memory Used: 113 MB
+2026-07-04T09:28:06.036Z	START RequestId: 9bf00a1d-cf65-8a03-4c48-50a5b90255ae Version: $LATEST
+2026-07-04T09:28:06.661Z	9bf00a1d-cf65-8a03-4c48-50a5b90255ae	INFO	Invoking SlothStay listings handler for affiliate=COZY traceId=Root=1-616842b4-88b91baf7bef4958f5298a72
+2026-07-04T09:28:06.493Z	9bf00a1d-cf65-8a03-4c48-50a5b90255ae	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/COZY?start=0&count=25 succeeded (200)
+2026-07-04T09:28:06.642Z	END RequestId: 9bf00a1d-cf65-8a03-4c48-50a5b90255ae
+2026-07-04T09:28:06.471Z	REPORT RequestId: 9bf00a1d-cf65-8a03-4c48-50a5b90255ae	Duration: 334.00 ms	Billed Duration: 271 ms	Memory Size: 512 MB	Max Memory Used: 208 MB
+2026-07-04T09:28:14.913Z	START RequestId: 318ce257-d45c-1f8f-306d-140dd5e1cb0c Version: $LATEST
+2026-07-04T09:28:14.214Z	318ce257-d45c-1f8f-306d-140dd5e1cb0c	INFO	Invoking SlothStay listings handler for affiliate=PJS traceId=Root=1-9a8095ec-12d5682921c4db41e5d48250
+2026-07-04T09:28:14.205Z	318ce257-d45c-1f8f-306d-140dd5e1cb0c	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/PJS?start=0&count=25 succeeded (200)
+2026-07-04T09:28:14.293Z	END RequestId: 318ce257-d45c-1f8f-306d-140dd5e1cb0c
+2026-07-04T09:28:14.283Z	REPORT RequestId: 318ce257-d45c-1f8f-306d-140dd5e1cb0c	Duration: 332.00 ms	Billed Duration: 263 ms	Memory Size: 512 MB	Max Memory Used: 202 MB
+2026-07-04T09:28:36.109Z	START RequestId: fc72de77-ab73-3d9e-6bac-e707572c921d Version: $LATEST
+2026-07-04T09:28:36.333Z	fc72de77-ab73-3d9e-6bac-e707572c921d	INFO	Invoking SlothStay listings handler for affiliate=ZZZ traceId=Root=1-40983552-b43195727a106299db94dba8
+2026-07-04T09:28:36.665Z	fc72de77-ab73-3d9e-6bac-e707572c921d	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/ZZZ?start=0&count=25 succeeded (200)
+2026-07-04T09:28:36.811Z	END RequestId: fc72de77-ab73-3d9e-6bac-e707572c921d
+2026-07-04T09:28:36.309Z	REPORT RequestId: fc72de77-ab73-3d9e-6bac-e707572c921d	Duration: 332.00 ms	Billed Duration: 336 ms	Memory Size: 512 MB	Max Memory Used: 192 MB
+2026-07-04T09:28:56.719Z	START RequestId: ccca7497-3e4c-aeeb-ef99-8dd0ef08f140 Version: $LATEST
+2026-07-04T09:28:56.604Z	ccca7497-3e4c-aeeb-ef99-8dd0ef08f140	INFO	Invoking SlothStay listings handler for affiliate=YAWN traceId=Root=1-2713b6f9-5b2abbd19517469a9d5a0329
+2026-07-04T09:28:56.640Z	ccca7497-3e4c-aeeb-ef99-8dd0ef08f140	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/YAWN?start=0&count=25 succeeded (200)
+2026-07-04T09:28:56.728Z	END RequestId: ccca7497-3e4c-aeeb-ef99-8dd0ef08f140
+2026-07-04T09:28:56.391Z	REPORT RequestId: ccca7497-3e4c-aeeb-ef99-8dd0ef08f140	Duration: 267.00 ms	Billed Duration: 295 ms	Memory Size: 512 MB	Max Memory Used: 201 MB
+2026-07-04T09:29:12.361Z	START RequestId: 685f9b17-b2bf-fc71-e17b-f1ac405c787b Version: $LATEST
+2026-07-04T09:29:12.983Z	685f9b17-b2bf-fc71-e17b-f1ac405c787b	INFO	Invoking SlothStay listings handler for affiliate=DOZE traceId=Root=1-36ed2fa2-10b76f1a67c9628875299d38
+2026-07-04T09:29:12.296Z	685f9b17-b2bf-fc71-e17b-f1ac405c787b	INFO	Backend call to https://services.slothstay.example/services/slothstay/listings/DOZE?start=0&count=25 succeeded (200)
+2026-07-04T09:29:12.036Z	END RequestId: 685f9b17-b2bf-fc71-e17b-f1ac405c787b
+2026-07-04T09:29:12.711Z	REPORT RequestId: 685f9b17-b2bf-fc71-e17b-f1ac405c787b	Duration: 365.00 ms	Billed Duration: 483 ms	Memory Size: 512 MB	Max Memory Used: 167 MB
