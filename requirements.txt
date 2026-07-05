@@ -1,0 +1,19 @@
+# Core pipeline (log_anamoly.py, reduce_for_llm.py, analyze_incident.py)
+python-dateutil
+
+# Agent layer (agent_system/) -- MCP server + ADK multi-agent + Agent Skills
+mcp
+google-adk
+
+# Optional, improves reduce_for_llm.py's line-grouping and token reporting.
+# The script works without these (falls back to a regex + no token count),
+# just less precisely.
+drain3
+tiktoken
+
+# Only needed if you set [LLM] provider = anthropic or openai in
+# log_anomaly.properties -- google-adk already pulls in google-genai for
+# provider = google, and analyze_incident.py imports these lazily so you
+# only need to install the one(s) you actually use.
+anthropic
+openai
