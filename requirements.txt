@@ -1,19 +1,27 @@
+# Versions below are pinned to exactly what this project was built and
+# tested against, for reproducibility. google-genai is not listed explicitly
+# because google-adk pulls in a compatible version (2.10.0 at time of writing)
+# as a transitive dependency.
+
 # Core pipeline (log_anamoly.py, reduce_for_llm.py, analyze_incident.py)
-python-dateutil
+python-dateutil==2.9.0.post0
 
 # Agent layer (agent_system/) -- MCP server + ADK multi-agent + Agent Skills
-mcp
-google-adk
+mcp==1.28.1
+google-adk==2.3.0
 
 # Optional, improves reduce_for_llm.py's line-grouping and token reporting.
 # The script works without these (falls back to a regex + no token count),
 # just less precisely.
-drain3
-tiktoken
+drain3==0.9.11
+tiktoken==0.13.0
 
 # Only needed if you set [LLM] provider = anthropic or openai in
-# log_anomaly.properties -- google-adk already pulls in google-genai for
-# provider = google, and analyze_incident.py imports these lazily so you
-# only need to install the one(s) you actually use.
-anthropic
-openai
+# log_anomaly.properties -- provider = google needs nothing extra beyond
+# google-adk above. analyze_incident.py imports these lazily, so only
+# install the one(s) you actually use. Not pinned to an exact version here
+# since they weren't exercised in this project's own test environment
+# (this sandbox's network blocks outbound calls to both APIs) -- any
+# reasonably recent version of each SDK should work.
+anthropic>=0.40
+openai>=1.50

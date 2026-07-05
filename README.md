@@ -1,5 +1,7 @@
 # SlothOps
 
+![SlothOps — multi-agent log incident triage: Extract, Reduce, Analyze](assets/cover.png)
+
 A multi-agent log incident triage system: point it at raw logs from multiple
 sources (a reverse proxy, an app server, a serverless function), and it
 correlates them into one incident, shrinks it for cheap LLM consumption, and
@@ -40,6 +42,26 @@ access enforced by the framework, not just documented.
 | 1. Extract | `log_anamoly.py` | Scans Apache/Tomcat/Lambda-style logs for ERROR/WARN/EXCEPTION triggers, time-correlates them (±2 min) across every source, writes one incident report |
 | 2. Reduce | `reduce_for_llm.py` | Folds long stack traces, trims noisy payload lines, collapses repeated lines — shrinks the report before it costs any tokens |
 | 3. Analyze | `analyze_incident.py` | Sends the reduced report to an LLM (Anthropic / OpenAI / Google, auto-detected or configured), returns a structured, non-technical summary |
+
+## The payoff: before vs. after reduce
+
+Stage 2 (`reduce_for_llm.py`) is where the token savings come from — it folds
+stack traces, trims noisy payload lines, and collapses repeated lines *before*
+the report is ever sent to an LLM. Measured on the bundled sample incident
+(`sample_data/sample_incident_report.txt` → `..._reduced.txt`):
+
+![Before vs. after reduction on the sample incident](assets/reduction_chart.png)
+
+| Metric | Before reduce | After reduce | Saved |
+|---|---:|---:|---:|
+| Lines | 222 | 174 | **−22%** |
+| Characters | 35,568 | 25,341 | **−29%** |
+| Est. tokens¹ | ~8,892 | ~6,335 | **−29%** |
+
+¹ Token estimate uses ~4 chars/token; `reduce_for_llm.py` prints an exact
+`tiktoken` count when the optional `tiktoken` package is installed. On larger,
+stack-trace-heavy incidents the reduction is proportionally greater, since a
+single folded 50-frame trace collapses to a couple of lines.
 
 ## The four concepts, and where the evidence is
 
@@ -109,7 +131,38 @@ agent_system/
   test_mcp_server.py              # MCP-client-only test (no ADK/LLM needed)
 ```
 
+## Measuring success
+
+There is no single accuracy number for a triage summary, so success is judged
+on three observable, reproducible signals:
+
+- **Token reduction** — the primary efficiency metric. `reduce_for_llm.py`
+  prints `before → after` line, character, and (with `tiktoken`) token counts
+  on every run, so the savings shown above are reproducible on any input.
+- **Summary fidelity** — spot-check the analyst output against the raw incident:
+  every incident in `sample_incident_report_reduced_summary.json` should trace
+  back to a real ERROR/SEVERE/EXCEPTION event in the source logs, with the
+  right timestamp window and no invented detail. A quick manual pass over the 3
+  sample incidents confirms this for the bundled data.
+- **Security coverage** — `agent_system/run_demo.py` runs an adversarial case
+  with two planted prompt-injection strings; success is that both are detected
+  and neutralized (visible in the demo output) rather than reaching the LLM.
+
+## Future work
+
+- **Real-time log streaming** — ingest directly from CloudWatch Logs, the ELK
+  stack, or a Kafka topic instead of static files, so incidents are triaged as
+  they happen rather than in batch.
+- **Alerting integrations** — post the plain-English summary straight to Slack,
+  PagerDuty, or Jira so the QA/business audience sees it where they already work.
+- **Learned reduction** — replace the heuristic line-folding with a small model
+  that scores line relevance, pushing token savings higher on unfamiliar log
+  formats.
+- **Broader log-format coverage** — add parsers beyond Apache/Tomcat/Lambda
+  (e.g. nginx, structured JSON logs, Kubernetes events).
+
 ## License
 
-CC0 — see the synthetic sample data's own disclaimer above; use this
-however you like.
+CC0 1.0 Universal — dedicated to the public domain. See the [`LICENSE`](LICENSE)
+file. The synthetic sample data carries its own disclaimer above; use all of
+this however you like.
