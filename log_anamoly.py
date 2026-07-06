@@ -256,7 +256,14 @@ def run_log_analysis(config_file):
 
 
 if __name__ == "__main__":
-    # Reads ./log_anomaly.properties relative to wherever this script is run from.
-    # For the synthetic demo data, run it against sample_data/log_anomaly.properties instead:
-    #   python -c "from log_anamoly import run_log_analysis; run_log_analysis('sample_data/log_anomaly.properties')"
-    run_log_analysis("log_anomaly.properties")
+    # Accepts an optional config path so you can switch between sample data
+    # sets from the console instead of hand-editing log_anomaly.properties:
+    #   python log_anamoly.py                                        # default: ./log_anomaly.properties
+    #   python log_anamoly.py sample_data/log_anomaly.properties      # sample data 1 (3 incidents)
+    #   python log_anamoly.py extended_incidents_v2/log_anomaly_v2.properties   # sample data 2 (5 incidents)
+    import argparse
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("config", nargs="?", default="log_anomaly.properties",
+                     help="properties file to read [SETTINGS] from (default: log_anomaly.properties)")
+    args = ap.parse_args()
+    run_log_analysis(args.config)
