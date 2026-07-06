@@ -1,0 +1,137 @@
+04-Jul-2026 09:00:00.217 INFO [http-nio-8080-exec-32] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=NAP AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:00:30.730 INFO [http-nio-8080-exec-20] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=DOZE AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:01:00.765 INFO [http-nio-8080-exec-21] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=COZY AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:01:08.574 INFO [http-nio-8080-exec-1] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=SLOTH AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:01:20.372 INFO [http-nio-8080-exec-28] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=NAP AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:01:29.918 INFO [http-nio-8080-exec-11] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=COZY AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:02:04.772 INFO [http-nio-8080-exec-2] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=DOZE AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:02:24.529 INFO [http-nio-8080-exec-13] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=YAWN AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:02:34.312 INFO [http-nio-8080-exec-37] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=YAWN AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:03:18.833 INFO [http-nio-8080-exec-36] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=SLOTH AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:03:25.722 INFO [http-nio-8080-exec-25] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=DOZE AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:03:54.873 INFO [http-nio-8080-exec-31] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=ZZZ AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:04:05.937 INFO [http-nio-8080-exec-40] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=YAWN AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:04:24.763 INFO [http-nio-8080-exec-5] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=NAP AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:04:59.358 INFO [http-nio-8080-exec-36] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=DOZE AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:05:28.019 WARN [http-nio-8080-exec-7] com.slothstay.inventory.NapInventoryProvider.query Slow response, still waiting on affiliate=NAP after 2500ms
+04-Jul-2026 09:05:37.329 INFO [http-nio-8080-exec-39] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=DOZE AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:06:12.738 INFO [http-nio-8080-exec-29] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=PJS AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:06:19.064 INFO [http-nio-8080-exec-8] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=SNUG AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:06:55.558 INFO [http-nio-8080-exec-19] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=PJS AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:07:20.811 INFO [http-nio-8080-exec-9] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=NAP AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:07:40.450 INFO [http-nio-8080-exec-27] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=DOZE AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:08:15.531 INFO [http-nio-8080-exec-30] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=DOZE AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:08:29.324 INFO [http-nio-8080-exec-31] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=PJS AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:08:56.279 INFO [http-nio-8080-exec-13] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=PJS AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:09:08.456 INFO [http-nio-8080-exec-4] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=COZY AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:09:42.835 INFO [http-nio-8080-exec-37] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=ZZZ AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:10:07.822 INFO [http-nio-8080-exec-31] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=COZY AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:10:32.307 INFO [http-nio-8080-exec-6] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=YAWN AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:10:39.369 INFO [http-nio-8080-exec-7] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=NAP AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:10:49.816 INFO [http-nio-8080-exec-19] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=SLOTH AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:10:58.981 INFO [http-nio-8080-exec-30] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=SNUG AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:11:17.799 INFO [http-nio-8080-exec-30] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=SNUG AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:11:58.748 INFO [http-nio-8080-exec-30] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=DOZE AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:12:43.941 INFO [http-nio-8080-exec-27] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=COZY AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:13:27.250 INFO [http-nio-8080-exec-6] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=DOZE AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:13:59.464 SEVERE [http-nio-8080-exec-3] com.slothstay.inventory.BlanketFortCollapseException too many blankets in the fort, queue depth=90 affiliate=NAP
+04-Jul-2026 09:14:00.626 SEVERE [http-nio-8080-exec-3] com.slothstay.inventory.BlanketFortCollapseException too many blankets in the fort, queue depth=91 affiliate=NAP
+04-Jul-2026 09:14:01.623 SEVERE [http-nio-8080-exec-3] com.slothstay.inventory.BlanketFortCollapseException too many blankets in the fort, queue depth=92 affiliate=NAP
+04-Jul-2026 09:14:02.056 SEVERE [http-nio-8080-exec-3] com.slothstay.inventory.BlanketFortCollapseException too many blankets in the fort, queue depth=93 affiliate=NAP
+04-Jul-2026 09:14:03.316 SEVERE [http-nio-8080-exec-3] com.slothstay.inventory.BlanketFortCollapseException too many blankets in the fort, queue depth=94 affiliate=NAP
+04-Jul-2026 09:14:04.682 SEVERE [http-nio-8080-exec-3] com.slothstay.inventory.BlanketFortCollapseException too many blankets in the fort, queue depth=95 affiliate=NAP
+04-Jul-2026 09:14:05.759 SEVERE [http-nio-8080-exec-3] com.slothstay.inventory.BlanketFortCollapseException too many blankets in the fort, queue depth=96 affiliate=NAP
+04-Jul-2026 09:14:06.673 SEVERE [http-nio-8080-exec-3] com.slothstay.inventory.BlanketFortCollapseException too many blankets in the fort, queue depth=97 affiliate=NAP
+04-Jul-2026 09:14:07.758 SEVERE [http-nio-8080-exec-3] com.slothstay.inventory.BlanketFortCollapseException too many blankets in the fort, queue depth=98 affiliate=NAP
+04-Jul-2026 09:14:08.179 SEVERE [http-nio-8080-exec-3] com.slothstay.inventory.BlanketFortCollapseException too many blankets in the fort, queue depth=99 affiliate=NAP
+04-Jul-2026 09:14:09.122 SEVERE [http-nio-8080-exec-3] com.slothstay.inventory.BlanketFortCollapseException too many blankets in the fort, queue depth=100 affiliate=NAP
+04-Jul-2026 09:14:10.012 SEVERE [http-nio-8080-exec-3] com.slothstay.inventory.BlanketFortCollapseException too many blankets in the fort, queue depth=101 affiliate=NAP
+04-Jul-2026 09:14:21.154 INFO [http-nio-8080-exec-1] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=ZZZ AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:14:52.096 INFO [http-nio-8080-exec-30] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=SLOTH AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:15:03.782 INFO [http-nio-8080-exec-15] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=ZZZ AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:15:44.654 INFO [http-nio-8080-exec-37] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=SNUG AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:15:55.174 INFO [http-nio-8080-exec-19] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=DOZE AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:16:05.947 INFO [http-nio-8080-exec-7] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=DOZE AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:16:46.291 INFO [http-nio-8080-exec-2] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=NAP AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:17:15.307 INFO [http-nio-8080-exec-11] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=SLOTH AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:17:55.171 INFO [http-nio-8080-exec-5] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=ZZZ AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:18:02.740 INFO [http-nio-8080-exec-7] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=LAZY AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:18:23.859 INFO [http-nio-8080-exec-36] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=YAWN AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:19:07.468 INFO [http-nio-8080-exec-38] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=SLOTH AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:19:44.630 INFO [http-nio-8080-exec-36] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=ZZZ AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:20:03.981 INFO [http-nio-8080-exec-3] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=PJS AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:20:28.693 INFO [http-nio-8080-exec-24] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=SNUG AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:20:33.832 INFO [http-nio-8080-exec-38] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=PJS AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:21:15.161 INFO [http-nio-8080-exec-24] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=SNUG AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:21:58.358 INFO [http-nio-8080-exec-38] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=NAP AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:22:39.199 INFO [http-nio-8080-exec-3] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=NAP AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:23:22.754 INFO [http-nio-8080-exec-13] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=PJS AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:23:42.825 SEVERE [http-nio-8080-exec-15] com.slothstay.inventory.PillowFightQueue.push PillowFightOverflowException: too many pillows in flight, dropping request (affiliate=YAWN)
+    at com.slothstay.inventory.PillowFightQueue.push(PillowFightQueue.java:40)
+    at com.slothstay.inventory.PillowFightQueue.enqueue(PillowFightQueue.java:41)
+    at com.slothstay.inventory.NapInventoryProvider.query(PillowFightQueue.java:42)
+    at com.slothstay.web.ListingsController.get(PillowFightQueue.java:43)
+    at com.slothstay.web.FrontDispatchServlet.service(PillowFightQueue.java:44)
+    at org.apache.catalina.core.StandardWrapperValve.invoke(PillowFightQueue.java:45)
+    at org.apache.catalina.core.StandardEngineValve.invoke(PillowFightQueue.java:46)
+    at org.apache.catalina.connector.CoyoteAdapter.service(PillowFightQueue.java:47)
+    at org.apache.coyote.http11.Http11Processor.service(PillowFightQueue.java:48)
+    at org.apache.coyote.AbstractProcessorLight.process(PillowFightQueue.java:49)
+    at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(PillowFightQueue.java:50)
+    at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(PillowFightQueue.java:51)
+04-Jul-2026 09:23:52.561 INFO [http-nio-8080-exec-4] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=SLOTH AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:23:58.192 INFO [http-nio-8080-exec-5] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=SNUG AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:24:14.380 INFO [http-nio-8080-exec-6] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=ZZZ AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:24:34.050 INFO [http-nio-8080-exec-24] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=ZZZ AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:24:53.941 INFO [http-nio-8080-exec-36] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=NAP AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:25:30.073 INFO [http-nio-8080-exec-18] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=PJS AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:26:02.040 INFO [http-nio-8080-exec-16] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=COZY AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:26:40.236 INFO [http-nio-8080-exec-2] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=LAZY AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:27:07.604 INFO [http-nio-8080-exec-13] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=NAP AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:27:41.786 INFO [http-nio-8080-exec-20] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=NAP AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:28:06.802 INFO [http-nio-8080-exec-27] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=COZY AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:28:14.687 INFO [http-nio-8080-exec-8] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=PJS AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:28:36.604 INFO [http-nio-8080-exec-27] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=ZZZ AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:28:56.558 INFO [http-nio-8080-exec-14] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=YAWN AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:29:12.744 INFO [http-nio-8080-exec-37] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=DOZE AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:29:33.442 WARN [http-nio-8080-exec-22] com.slothstay.db.BlanketConnectionPool.borrow Pool running low: 18/20 connections checked out, none returned in over 60s (affiliate=SLOTH)
+04-Jul-2026 09:29:35.667 SEVERE [http-nio-8080-exec-22] com.slothstay.db.BlanketConnectionPool.borrow NapConnectionPoolExhaustedException: no connections available, 20/20 checked out and unreturned (affiliate=SLOTH)
+04-Jul-2026 09:29:43.072 INFO [http-nio-8080-exec-37] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=LAZY AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:30:04.037 INFO [http-nio-8080-exec-10] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=DOZE AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:30:40.633 INFO [http-nio-8080-exec-24] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=SLOTH AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:31:19.857 INFO [http-nio-8080-exec-30] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=PJS AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:31:41.342 INFO [http-nio-8080-exec-16] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=SLOTH AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:32:20.291 INFO [http-nio-8080-exec-30] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=NAP AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:32:35.378 INFO [http-nio-8080-exec-25] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=ZZZ AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:33:03.472 INFO [http-nio-8080-exec-9] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=SLOTH AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:33:30.480 INFO [http-nio-8080-exec-8] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=ZZZ AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:33:51.122 INFO [http-nio-8080-exec-10] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=SLOTH AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:34:21.675 INFO [http-nio-8080-exec-36] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=SNUG AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:35:00.437 INFO [http-nio-8080-exec-14] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=DOZE AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:35:27.241 INFO [http-nio-8080-exec-8] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=NAP AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:36:08.948 INFO [http-nio-8080-exec-22] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=PJS AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:36:40.843 INFO [http-nio-8080-exec-19] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=NAP AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:36:57.817 SEVERE [http-nio-8080-exec-9] com.slothstay.inventory.BlanketSwapDeadlockException deadlock detected between exec-9 and exec-14 over shared blanket locks (affiliate=SNUG)
+    at com.slothstay.inventory.BlanketLock.acquire(BlanketLock.java:20) [Thread: http-nio-8080-exec-9, waiting on lock held by exec-14]
+    at com.slothstay.inventory.NapInventoryProvider.reserveBlanket(BlanketLock.java:21) [Thread: http-nio-8080-exec-9, waiting on lock held by exec-14]
+    at com.slothstay.web.ListingsController.get(BlanketLock.java:22) [Thread: http-nio-8080-exec-9, waiting on lock held by exec-14]
+    at org.apache.catalina.core.StandardWrapperValve.invoke(BlanketLock.java:23) [Thread: http-nio-8080-exec-9, waiting on lock held by exec-14]
+    at com.slothstay.inventory.BlanketLock.acquire(BlanketLock.java:20) [Thread: http-nio-8080-exec-14, waiting on lock held by exec-9]
+    at com.slothstay.inventory.NapInventoryProvider.reserveBlanket(BlanketLock.java:21) [Thread: http-nio-8080-exec-14, waiting on lock held by exec-9]
+    at com.slothstay.web.ListingsController.get(BlanketLock.java:22) [Thread: http-nio-8080-exec-14, waiting on lock held by exec-9]
+    at org.apache.catalina.core.StandardWrapperValve.invoke(BlanketLock.java:23) [Thread: http-nio-8080-exec-14, waiting on lock held by exec-9]
+04-Jul-2026 09:37:07.291 INFO [http-nio-8080-exec-10] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=ZZZ AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:37:19.547 INFO [http-nio-8080-exec-2] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=LAZY AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:37:24.714 INFO [http-nio-8080-exec-28] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=SNUG AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:37:30.160 INFO [http-nio-8080-exec-19] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=ZZZ AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:38:03.086 INFO [http-nio-8080-exec-3] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=PJS AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:38:42.496 INFO [http-nio-8080-exec-30] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=COZY AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:38:55.918 INFO [http-nio-8080-exec-2] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=PJS AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:39:07.001 INFO [http-nio-8080-exec-30] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=PJS AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:39:51.827 INFO [http-nio-8080-exec-15] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=LAZY AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:40:10.244 INFO [http-nio-8080-exec-22] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=DOZE AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:40:18.432 INFO [http-nio-8080-exec-23] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=COZY AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:40:35.325 INFO [http-nio-8080-exec-39] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=YAWN AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:41:07.341 INFO [http-nio-8080-exec-13] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=YAWN AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:41:33.095 INFO [http-nio-8080-exec-11] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=LAZY AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]
+04-Jul-2026 09:41:44.930 INFO [http-nio-8080-exec-32] com.slothstay.inventory.NapInventoryProvider.query Search Query: affiliate=PJS AND validFrom:[* TO 20260704] AND validTo:[20260704 TO *]

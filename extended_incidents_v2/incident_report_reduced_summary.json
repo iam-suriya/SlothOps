@@ -1,0 +1,32 @@
+{
+  "incidents": [
+    {
+      "incident_id": "INC-1",
+      "when": "2026-07-04 09:05-09:06 UTC",
+      "what_broke": "Listings search timed out for one partner, so their search results didn't load.",
+      "customer_impact": "One partner's listings search failed for about a minute; no data was lost.",
+      "severity": "Medium",
+      "how_to_verify_fix": "Re-run a listings search for that partner and confirm results return within 3 seconds.",
+      "status": "Needs retest"
+    },
+    {
+      "incident_id": "INC-2",
+      "when": "2026-07-04 09:13-09:14 UTC",
+      "what_broke": "A backend queue filled up and started rejecting new requests for about a minute.",
+      "customer_impact": "Some search requests briefly failed during that minute; retries succeeded.",
+      "severity": "Low",
+      "how_to_verify_fix": "Send repeated requests during peak load and confirm none are rejected.",
+      "status": "Needs retest"
+    },
+    {
+      "incident_id": "INC-3",
+      "when": "2026-07-04 09:23 UTC",
+      "what_broke": "A single listings search request was dropped due to a backend overload condition.",
+      "customer_impact": "One partner saw a failed search; a retry would have succeeded.",
+      "severity": "Low",
+      "how_to_verify_fix": "Trigger the same search again and confirm it succeeds without error.",
+      "status": "Resolved"
+    }
+  ],
+  "_mock": true
+}
