@@ -64,25 +64,54 @@ if not os.path.exists('SlothOps'):
 """)
 
 md("""\
-## 1. The dataset
+## 1. The dataset — pick which sample set to run
 
 Every log file here is **100% synthetic** — a fictional company, "SlothStay
 Vacation Exchange." The domain uses the reserved `.example` TLD, IPs use the
-RFC 5737 documentation ranges, and API keys are obvious placeholders. It's
-generated deterministically (seeded) by `sample_data/generate_synthetic_logs.py`.
+RFC 5737 documentation ranges, and API keys are obvious placeholders.
 
-Three real-world log formats are represented, matching a common production
-stack:
+Two sample sets ship with this repo. Change **`DATASET`** in the cell below
+to switch, then use the "Restart and run all cells" menu — everything
+downstream (the timeline chart, reduction numbers, LLM summary, MCP/ADK
+demos) reads from whichever one you pick, live.
+
+| `DATASET` value | Config file used | Incidents |
+|---|---|---|
+| `"default"` | `log_anomaly.properties` | whatever the repo's main config currently points to |
+| `"sample1"` | `sample_data/log_anomaly.properties` | 3: Lambda timeout, repeated Tomcat burst, cross-file exception |
+| `"sample2"` | `extended_incidents_v2/log_anomaly_v2.properties` | 5: adds connection-pool exhaustion + thread deadlock |
 """)
 
 code("""\
-import glob
+# ── Change this one line, then Restart and run all cells ──
+DATASET = "default"   # "default" | "sample1" | "sample2"
 
-sources = {
-    "Apache combined log (reverse proxy)": "apache_logs/apache-access.log",
-    "Tomcat/Catalina log (app server)": "logs/tomcat.log",
-    "AWS Lambda/CloudWatch log (serverless)": "logs/lambda.log",
+CONFIG_PATHS = {
+    "default": "log_anomaly.properties",
+    "sample1": "sample_data/log_anomaly.properties",
+    "sample2": "extended_incidents_v2/log_anomaly_v2.properties",
 }
+CONFIG_PATH = CONFIG_PATHS[DATASET]
+print(f"DATASET = {DATASET!r}  ->  using config: {CONFIG_PATH}")
+""")
+
+code("""\
+import configparser
+import os
+
+settings = configparser.ConfigParser()
+settings.read(CONFIG_PATH)
+log_dir = settings["SETTINGS"]["log_folder"]
+rr_dir = settings["SETTINGS"]["request_response_log_folder"]
+
+sources = {}
+for label, directory in [("Apache combined log (reverse proxy)", rr_dir),
+                          ("Tomcat/Catalina + AWS Lambda/CloudWatch logs (app server + serverless)", log_dir)]:
+    if not os.path.isdir(directory):
+        continue
+    for fname in sorted(os.listdir(directory)):
+        if fname.endswith((".log", ".txt")):
+            sources[f"{label}: {fname}"] = os.path.join(directory, fname)
 
 for label, path in sources.items():
     with open(path, encoding="utf-8-sig") as f:
@@ -107,7 +136,7 @@ three separate files.
 code("""\
 from log_anamoly import run_log_analysis
 
-report_path = run_log_analysis("log_anomaly.properties")
+report_path = run_log_analysis(CONFIG_PATH)
 print("\\nIncident report written to:", report_path)
 
 with open(report_path, encoding="utf-8-sig") as f:
@@ -221,9 +250,9 @@ md("""\
 structured, non-technical summary. This notebook runs in **mock mode**
 (`[LLM] mock = True`) by default — zero tokens spent, zero API key required
 — so it's fully reproducible for anyone running this notebook cold. Flip
-`mock = False` in `log_anomaly.properties` and set `GOOGLE_API_KEY` /
-`ANTHROPIC_API_KEY` / `OPENAI_API_KEY` in the Kaggle notebook's Secrets to
-get a real LLM-generated summary instead.
+`mock = False` in whichever config `CONFIG_PATH` points to and set
+`GOOGLE_API_KEY` / `ANTHROPIC_API_KEY` / `OPENAI_API_KEY` in the Kaggle
+notebook's Secrets to get a real LLM-generated summary instead.
 """)
 
 code("""\
@@ -231,7 +260,7 @@ import json
 import pandas as pd
 from analyze_incident import analyze, load_llm_settings
 
-provider, mock, max_tokens = load_llm_settings("log_anomaly.properties")
+provider, mock, max_tokens = load_llm_settings(CONFIG_PATH)
 raw = analyze(reduced_path, provider=provider, mock=mock, max_tokens=max_tokens)
 result = json.loads(raw)
 
@@ -297,11 +326,11 @@ async def demo_mcp():
             tools = await session.list_tools()
             print("MCP tools discovered:", [t.name for t in tools.tools])
 
-            r1 = json.loads((await session.call_tool("extract_incident", {"config_path": "log_anomaly.properties"})).content[0].text)
+            r1 = json.loads((await session.call_tool("extract_incident", {"config_path": CONFIG_PATH})).content[0].text)
             print("extract_incident ->", r1)
             r2 = json.loads((await session.call_tool("reduce_report", {"report_path": r1["report_path"]})).content[0].text)
             print("reduce_report    ->", r2)
-            r3 = json.loads((await session.call_tool("analyze_incident_tool", {"reduced_path": r2["reduced_path"], "config_path": "log_anomaly.properties"})).content[0].text)
+            r3 = json.loads((await session.call_tool("analyze_incident_tool", {"reduced_path": r2["reduced_path"], "config_path": CONFIG_PATH})).content[0].text)
             print(f"analyze_incident_tool -> {len(r3['incidents'])} incidents summarized")
 
 await demo_mcp()
