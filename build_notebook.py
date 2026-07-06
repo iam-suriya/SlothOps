@@ -15,6 +15,12 @@ Then execute with nbclient to embed real outputs before uploading to Kaggle:
 import nbformat as nbf
 
 nb = nbf.v4.new_notebook()
+nb["metadata"]["kernelspec"] = {
+    "display_name": "Python 3",
+    "language": "python",
+    "name": "python3",
+}
+nb["metadata"]["language_info"] = {"name": "python"}
 cells = []
 
 
