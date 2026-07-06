@@ -375,6 +375,39 @@ print("Allowed tools:", skill.frontmatter.allowed_tools)
 """)
 
 md("""\
+## 8. Outputs
+
+Everything this run produced, collected into one `outputs/` folder (under
+`/kaggle/working`) so this notebook version has clear, downloadable Output
+files — the pipeline scripts themselves (`log_anamoly.py`, `reduce_for_llm.py`,
+`analyze_incident.py`) are untouched; this just copies their existing
+results into one place.
+""")
+
+code("""\
+import os
+import shutil
+import json as _json
+
+os.makedirs("outputs", exist_ok=True)
+
+shutil.copy(report_path, "outputs/incident_report.txt")
+shutil.copy(reduced_path, "outputs/incident_report_reduced.txt")
+
+with open("outputs/incident_summary.json", "w") as f:
+    _json.dump(result, f, indent=2)
+
+for chart in ("timeline_chart.png", "reduction_chart_live.png", "severity_chart.png"):
+    src = os.path.join("assets", chart)
+    if os.path.exists(src):
+        shutil.copy(src, os.path.join("outputs", chart))
+
+print("outputs/ contains:")
+for f in sorted(os.listdir("outputs")):
+    print(" -", f)
+""")
+
+md("""\
 ## Conclusion
 
 Starting from three log-triage scripts a human ran by hand, this project
