@@ -59,6 +59,13 @@ code("""\
 import os
 if not os.path.exists('SlothOps'):
     !git clone -q https://github.com/iam-suriya/SlothOps.git
+else:
+    # Kaggle's /kaggle/working persists across "Restart and run all" within the
+    # same draft session -- without this, a SlothOps/ folder cloned earlier
+    # (before a later push) would silently stick around stale, and any new
+    # files/folders added since (like extended_incidents_v2/) would be missing
+    # even though the repo on GitHub has them.
+    !cd SlothOps && git fetch -q origin main && git reset -q --hard origin/main
 %cd SlothOps
 !pip install -q -r requirements.txt
 """)
